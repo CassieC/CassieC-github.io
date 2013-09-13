@@ -1,0 +1,115 @@
+@-mozviewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	background-color: #ccc;
+	font: normal 100%/1.4 Georgia, "Times New Roman", Times, serif;
+	background-position: top center;
+}
+
+.selfie{
+	width: 100%;
+}
+
+h1{
+	position: left;
+	font: Verdana, Geneva, sans-serif;
+	font-size: 1.2em;
+}
+
+h2{
+	position: left;
+	font: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	
+}
+
+figure{
+	background-color: #1CBBB4;
+	width: 100%;
+	position: left;
+	padding: 1em;
+	padding-left: .05em;
+	padding-right: .05em;
+}
+
+.socialmedia{
+		display: inline;
+		position: center;
+		max-width: 4em;
+	}
+
+
+
+@media only screen and (min-width: 25em) {
+	
+	h1{
+	position: left;
+	font: Verdana, Geneva, sans-serif;
+	font-size: 1.2em;
+	}
+	
+	.socialmedia{
+		display: inline;
+		position: center;
+		max-width: 10%;
+	}
+
+}
+
+@media only screen and (min-width: 37em) {
+	h1{
+	position: left;
+	font: Verdana, Geneva, sans-serif;
+	font-size: 2.5em;
+	}
+	.socialmedia{
+		display: inline;
+		position: center;
+		max-width: 5em;
+	}
+	
+	h2{
+	position: left;
+	font: Verdana, Geneva, sans-serif;
+	font-size: 2em;
+}
+
+	p{
+	position: left;
+	font: Verdana, Geneva, sans-serif;
+	font-size: .8em;
+	}
+	
+}
+
+@media only screen and (min-width: 150em) {
+	h1{
+	position: left;
+	font: Verdana, Geneva, sans-serif;
+	font-size: 3em;
+	}
+	
+	.socialmedia{
+		display: inline;
+		position: center;
+		max-width: 12em;
+	}
+	
+	p{
+	position: left;
+	font: Verdana, Geneva, sans-serif;
+	font-size: 1.5em;
+	}
+	
+	h2{
+	position: left;
+	font: Verdana, Geneva, sans-serif;
+	font-size: 2.5em;
+	
+}
+	
+}
