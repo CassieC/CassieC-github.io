@@ -10,6 +10,10 @@ html {
 	background-position: top center;
 }
 
+.portfolio-background{
+	background-color: #DDD;
+}
+
 .selfie{
 	width: 100%;
 }
@@ -18,6 +22,7 @@ h1{
 	position: left;
 	font: Verdana, Geneva, sans-serif;
 	font-size: 1.2em;
+	color: #1CBBB4;
 }
 
 h2{
