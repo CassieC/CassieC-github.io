@@ -11,7 +11,16 @@ html {
 }
 
 .portfolio-background{
-	background-color: #DDD;
+	background-color: #fff;
+}
+
+p{
+	padding: .5em;
+}
+
+.portfolio-img{
+	width:100%;
+	padding: 1em;
 }
 
 .selfie{
@@ -23,6 +32,7 @@ h1{
 	font: Verdana, Geneva, sans-serif;
 	font-size: 1.2em;
 	color: #1CBBB4;
+	padding: .5em;
 }
 
 h2{
@@ -88,6 +98,11 @@ figure{
 	font: Verdana, Geneva, sans-serif;
 	font-size: .8em;
 	}
+	
+	.portfolio-img{
+	width:100%;
+	padding: .5em;
+}
 	
 }
 
